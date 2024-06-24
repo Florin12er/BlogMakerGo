@@ -1,0 +1,9 @@
+<!-- /web/templates/show.html -->
+{{ define "content" }}
+    <h2>{{ .Title }}</h2>
+    <p><strong>Link:</strong> <a href="{{ .Link }}">{{ .Link }}</a></p>
+    <p><strong>Content:</strong></p>
+    <p>{{ .Content }}</p>
+    <p><a href="/">Back to Home</a></p>
+{{ end }}
+
